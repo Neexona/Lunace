@@ -1,6 +1,6 @@
 const config = {
   defaultSettings: {
-    prefix: "l!",
+    prefix: "p!",
     modLogChannel: "logs",
     modRole: "Modo",
     adminRole: "Admin",
@@ -39,7 +39,7 @@ const config = {
     },
     {
       level: 3,
-      name: "Fondateur",
+      name: "Créateur",
       check: message => message.client.appInfo.owner.id === message.author.id
     }
   ]
