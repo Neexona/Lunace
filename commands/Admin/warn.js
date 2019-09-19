@@ -23,7 +23,7 @@ class Warn extends Command {
       return message.channel.send("Vous n'avez pas les permissions.");
 
     if (warnedUser.hasPermission("MANAGE_MESSAGES"))
-      return message.channel.send("Vous ne pouvez pas kick cette personne.");
+      return message.channel.send("Vous ne pouvez pas warn cette personne.");
 
     let warnEmbed = new RichEmbed()
       .setDescription("Warn")
