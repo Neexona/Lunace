@@ -11,7 +11,7 @@ module.exports = class {
       this.bot.appInfo = await this.bot.fetchApplication();
     }, 60000);
 
-    this.bot.user.setActivity("p!help pour plus d'informations !");
+    this.bot.user.setActivity("m!help pour plus d'informations !");
 
     this.bot.logger.log(`${this.bot.user.username} est prêt !`, "ready");
   }
